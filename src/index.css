@@ -1,0 +1,10 @@
+:root {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+}
