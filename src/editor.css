@@ -1,0 +1,10 @@
+#editor {
+  border-radius: 15px;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  width: 35%;
+  color: #222;
+  &:hover {
+    outline: 1px solid #4b4b4b;
+  }
+}

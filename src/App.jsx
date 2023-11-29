@@ -2,13 +2,17 @@
 import { useState } from "react";
 import "./App.css";
 import Markdown from "react-markdown";
-
+import Editor from "./Editor";
+import Preview from "./Preview";
 function App() {
   return (
-    <>
-      <h1>Hello World</h1>
-      <Markdown>This is *italic* text and **bold** text...</Markdown>
-    </>
+    <main>
+      <h1>Markdown Previewer</h1>
+      <section id="container">
+        <Editor />
+        <Preview />
+      </section>
+    </main>
   );
 }
 
