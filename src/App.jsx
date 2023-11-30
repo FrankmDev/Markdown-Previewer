@@ -4,13 +4,14 @@ import "./App.css";
 import Markdown from "react-markdown";
 import Editor from "./Editor";
 import Preview from "./Preview";
+
 function App() {
   return (
     <main>
-      <h1>Markdown Previewer</h1>
+      <h1 className="heading">Markdown Previewer</h1>
       <section id="container">
         <Editor />
-        <Preview />
+        <Preview></Preview>
       </section>
     </main>
   );

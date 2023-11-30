@@ -1,11 +1,6 @@
 import "./preview.css";
 const Preview = () => {
-  return (
-    <section id="preview">
-      <p>Hello</p>
-      <p>World</p>
-    </section>
-  );
+  return <section id="preview"></section>;
 };
 
 export default Preview;
